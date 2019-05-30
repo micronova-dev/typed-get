@@ -1,0 +1,37 @@
+{
+  "name": "typed-get",
+  "version": "1.0.0",
+  "description": "typescript type-safe nested property access",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register **/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micronova-dev/typed-get.git"
+  },
+  "keywords": [
+    "typescript",
+    "type-safe",
+    "nested",
+    "property",
+    "get"
+  ],
+  "author": "MicroNova",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/micronova-dev/typed-get/issues"
+  },
+  "homepage": "https://github.com/micronova-dev/typed-get#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "install": "^0.12.2",
+    "mocha": "^6.1.4",
+    "npm": "^6.9.0",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.4.5"
+  }
+}
