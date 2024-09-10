@@ -1,6 +1,8 @@
 # typed-get
 Type-safe nested property accessor for Typescript
 
+Note there is a newer [generic version](https://github.com/micronova-dev/pathproxy) available.
+
 ## Installation
 
 To install:
